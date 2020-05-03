@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".sensei-view-all-participants").on("click","a",function(e){e.preventDefault();var i=jQuery(this).closest(".widget_sensei_course_participants").find(".sensei-course-participant.hide"),s=i.is(":visible")?sensei_course_participants_frontend.view_all:sensei_course_participants_frontend.close;jQuery(this).text(s),i.slideToggle(300)})});
